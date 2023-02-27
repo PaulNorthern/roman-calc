@@ -2,7 +2,7 @@
 using RomanLibrary;
 
 var calculate = new Calculate();
-var result = calculate.Evaluate("(IV + CM) / II");
+var result = calculate.Evaluate("(MMMDCCXXIV - MMCCXXIX) * II");
 Console.WriteLine(result);
 
 
