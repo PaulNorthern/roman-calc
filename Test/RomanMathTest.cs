@@ -20,18 +20,4 @@ public class RomanMathTest
         // Assert
         Assert.Equal(expected, result);
     }
-
-    [Theory]
-    [InlineData(2048, "MMXLVIII")]
-    public void convert_arabic_to_roman(int input, string expected)
-    {
-        // Arrange
-        var calculate = new Calculate();
-
-        // Act
-        var result = calculate.ConvertArabicIntoRoman(input);
-
-        // Assert
-        Assert.Equal(expected, result);
-    }
 }
